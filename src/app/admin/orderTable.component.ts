@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 
 @Component({
-    template: `<div class="bg-warning p-2 text-white">
-                <h3>Order Table Placeholder</h3>
-                </div>`
+    templateUrl: 'orderTable.component.html'
 })
-export class OrderTableComponent { }
+export class OrderTableComponent {}
