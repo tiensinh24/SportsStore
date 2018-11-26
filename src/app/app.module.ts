@@ -8,10 +8,12 @@ import { CheckoutComponent } from './store/checkout.component';
 import { CartDetailComponent } from './store/cartDetail.component';
 import { RouterModule } from '@angular/router';
 import { StoreFirstGuard } from './storeFirst.guard';
+import { TedComponent } from './ted/ted.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TedComponent
   ],
   imports: [
     BrowserModule, StoreModule,
